@@ -1,0 +1,42 @@
+
+
+GraphedExpression="Angle", Color=#e56a6f, Show=0
+GraphedExpression="AngleRef", Color=#35792b, Show=0
+GraphedExpression="Velocity", Color=#769dda
+GraphedExpression="VelocityRef", Color=#b14f0d
+GraphedExpression="Input", Color=#b3c38e, Show=0
+GraphedExpression="t", Color=#ab7b05, Show=0
+GraphedExpression="dt", Color=#7fd3b7, Show=0
+GraphedExpression="VelocityPID.last_error", Color=#50328f, Show=0
+GraphedExpression="VelocityPID.output", Color=#c587a5, Show=0
+OpenDocument="gcc_compat.c", FilePath="D:/Desktop/2026CMZY/PID_Simulation/Motor_simulation/gcc_compat.c", Line=0
+OpenDocument="motor_simulation.c", FilePath="E:/RoboMaster2022/Repositories/MotorSimulation/MotorSimulator/Motor/motor_simulation.c", Line=0
+OpenDocument="ieee754-sf.S", FilePath="C:/M/B/src/gcc-13.3.0/libgcc/config/arm/ieee754-sf.S", Line=0
+OpenDocument="sf_scalbn.c", FilePath="C:/M/B/src/newlib-4.5.0.20241231/newlib/libm/common/sf_scalbn.c", Line=0
+OpenDocument="stm32f1xx_it.c", FilePath="D:/Desktop/2026CMZY/PID_Simulation/Core/Src/stm32f1xx_it.c", Line=79
+OpenDocument="main.c", FilePath="D:/Desktop/2026CMZY/PID_Simulation/Core/Src/main.c", Line=173
+OpenDocument="stm32f1xx_hal.c", FilePath="D:/Desktop/2026CMZY/PID_Simulation/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c", Line=368
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Watched Data 1", DockArea=BOTTOM, x=0, y=0, w=974, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1587, h=215, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1587, h=561, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="200 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="1351;71", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1417;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1423;0"
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1585, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" Angle";" AngleRef";" Velocity";" VelocityRef";" Input";" t";" dt";" VelocityPID.last_error";" VelocityPID.output"], ColWidths=[100;100;100;100;100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[100;100;105;100;105;100;100;119;741]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[122;100;100;635]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
+WatchedExpression="AnglePID.Kp", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="AnglePID.Ki", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="AnglePID.Kd", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="VelocityPID.Kp", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="VelocityPID.Ki", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="VelocityPID.Kd", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="TestMode", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="ResetFlag", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Freeze", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="VelFilterAlpha", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="t", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Input", Window=Watched Data 1
