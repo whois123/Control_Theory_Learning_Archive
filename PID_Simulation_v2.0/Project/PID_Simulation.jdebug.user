@@ -1,24 +1,27 @@
 
 
-GraphedExpression="Angle", Color=#e56a6f, Show=0
-GraphedExpression="AngleRef", Color=#35792b, Show=0
-GraphedExpression="Velocity", Color=#769dda
-GraphedExpression="VelocityRef", Color=#b14f0d
+GraphedExpression="Angle", Color=#e56a6f
+GraphedExpression="AngleRef", Color=#35792b
+GraphedExpression="Velocity", Color=#769dda, Show=0
+GraphedExpression="VelocityRef", Color=#b14f0d, Show=0
 GraphedExpression="Input", Color=#b3c38e, Show=0
-GraphedExpression="t", Color=#ab7b05
+GraphedExpression="t", Color=#ab7b05, Show=0
 GraphedExpression="dt", Color=#7fd3b7, Show=0
 GraphedExpression="VelocityPID.last_error", Color=#50328f, Show=0
 GraphedExpression="VelocityPID.output", Color=#c587a5, Show=0
-OpenDocument="stm32f1xx_hal.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v1.0/Project/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c", Line=368
-OpenDocument="main.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v1.0/Project/Core/Src/main.c", Line=173
+OpenDocument="PID.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v2.0/Project/PID/PID.c", Line=16
+OpenDocument="ieee754-sf.S", FilePath="C:/M/B/src/gcc-13.3.0/libgcc/config/arm/ieee754-sf.S", Line=0
+OpenDocument="stm32f1xx_it.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v2.0/Project/Core/Src/stm32f1xx_it.c", Line=79
+OpenDocument="stm32f1xx_hal.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v2.0/Project/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c", Line=356
+OpenDocument="main.c", FilePath="D:/Desktop/PID_Learning/PID_Simulation_v2.0/Project/Core/Src/main.c", Line=104
 OpenToolbar="Debug", Floating=0, x=0, y=0
 OpenWindow="Watched Data 1", DockArea=BOTTOM, x=0, y=0, w=974, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1587, h=227, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
-OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1587, h=549, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="500 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="1351;71", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1410;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1422;0"
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1587, h=233, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1587, h=543, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="200 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="1351;71", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1411;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1423;0"
 OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1585, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
 TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" Angle";" AngleRef";" Velocity";" VelocityRef";" Input";" t";" dt";" VelocityPID.last_error";" VelocityPID.output"], ColWidths=[100;100;100;100;100;100;100;100;100;100;100]
-TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[100;100;105;100;105;105;100;119;736]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[100;100;112;100;112;112;100;119;732]
 TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[122;100;100;635]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
